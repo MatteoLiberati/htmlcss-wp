@@ -1,4 +1,4 @@
-/* ALL */
+/* GENERAL*/
 *{
     margin:0;
     padding:0;
@@ -6,15 +6,6 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color:#797373;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5{
-    font-weight: 600;
-    color:black;
 }
 
 /* UTILITIES */
@@ -34,6 +25,10 @@ h5{
 /* MACROAREA */
 body{
     margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* GENERAL CONTAINER */
@@ -59,10 +54,6 @@ header ul li{
     margin-right:10px;
 }
 
-header ul li a{
-    text-decoration: none;
-}
-
 header ul li a:hover{
     color:black;
 }
@@ -76,12 +67,15 @@ header ul li a:hover{
     background-size: cover;
     background-position-y: -130px;
     border-radius: 10px;
+    /* border: 5px solid blue; */
 }
 
 .text-picture{
     width:470px;
     margin-left:60px;
     padding-top:310px;
+    /* border: 5px solid red; */
+    /* margin-top: 80px; */
 }
 
 .text-picture h2{
@@ -105,8 +99,9 @@ header ul li a:hover{
 }
 
 .content-head h2{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 38px;
+    color:black;
 }
 
 /* CONTENT LAYOUT */
@@ -152,17 +147,18 @@ header ul li a:hover{
 .column-title{
     color:black;
     padding:15px 0;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* FOOTER */
 footer{
     margin-bottom: 20px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
 }
 
 #heart{
     color:red;
+    font-size: 18px;
 }
